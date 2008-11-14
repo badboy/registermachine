@@ -20,9 +20,11 @@ a simple register machine, written in ruby
   IF r1=0 GOTO a	jump to line a, if value in register 1 is equal to 0
   END			exit the machine
 
-the registers can only store positive natural integers and 0 (even CSUB, SUB, CDIV & DIV will result in at least 0)
+the registers can only store natural integers and 0 (CSUB & SUB will at least result in 0, CDIV & DIV will result in integers, means 5/3=1)
+
 unknown instructions will raise Exceptions
-lines beginning with a # are comments
+
+lines beginning with # are comments
 
 the interpreter will always quit (on success) with a line similar to the following
   [0, 1] in line 5 after 20 steps
