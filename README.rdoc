@@ -42,7 +42,7 @@ this will start the interpreter with 2 registers, the two are filled with the va
 
 == License
 Creative Commons by-nc-sa 3.0
-http://creativecommons.org/licenses/by-nc-sa/3.0/
+[http://creativecommons.org/licenses/by-nc-sa/3.0/]
 
 You are free:
 * to Share — to copy, distribute and transmit the work
