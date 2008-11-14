@@ -1,0 +1,5 @@
+SUB 2
+DUMP
+IF r1=0 GOTO 5
+GOTO 1
+END
