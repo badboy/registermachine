@@ -14,7 +14,7 @@ ARGV.options do |o|
     trace = t
   end
   
-  o.on('-c', '--count COUNT', Integer, 'register count') do |t|
+  o.on('-cCOUNT', '--count COUNT', Integer, 'register count') do |t|
     registerc = t
   end
   
